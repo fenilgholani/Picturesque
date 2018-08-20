@@ -1,0 +1,287 @@
+<html>
+<head>
+	<title>
+		Photo Gallery
+	</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+	<html>
+	<head>
+		<title>
+			Photo Gallery
+		</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+	</head>
+	<body>
+		
+		<div class="image"><h1 style="
+		padding-top: 0px;
+		padding-left: 100‒;
+		padding-left: 100‒;
+		padding-left: 0px;
+		margin-bottom: 497px;
+		">Picturesque</h1>
+		<div class="header_section__copy">
+		</div>
+		<a href="www.facebook.com">
+		<button class="facebook" style="
+		width: 74px;
+		">  f  </button></a>
+		<a href="www.gmail.com">
+		<button class="gmail" style="
+		width: 74px;
+		">G</button>
+	</div>
+	
+	
+	<div class="subtopic1" style="
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+">
+		<a href="cityscape.html">
+
+			
+				<div class="mySlides1" style="display: block;">
+					<img src="cityscape1.jpg" style="
+					width: 300px;
+					height: 200px;
+					">
+				</div>
+				<div class="mySlides1" style="display: block;">
+					<img src="cityscape2.jpg" style="
+					width: 300px;
+					height: 200px;
+					">
+				</div>
+
+				<div class="mySlides1" style="display: none;">
+					<img src="cityscape3.jpg" style="
+					width: 300px;
+					height: 200px;
+					">
+				</div>
+
+				<h2>Cityscape<h2>
+		</a>
+	
+		</a>
+	</div>
+	<div class="subtopic2" style="
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+">
+	<a href="nature.html">
+
+
+			<div class="mySlides2" style="display: block;">
+				<img src="nature1.jpg" style="
+					width: 300px;
+					height: 200px;
+					">
+			</div>
+
+			<div class="mySlides2" style="display: none;">
+				<img src="nature2.jpg" style="
+					width: 300px;
+					height: 200px;
+					">
+			</div>
+
+			<div class="mySlides2" style="display: none;">
+				<img src="nature3.jpg" style="
+					width: 300px;
+					height: 200px;
+					">
+			</div>
+
+		<h2>Nature<h2>
+	</a>
+</div>
+</div>
+<div class="subtopic3" style="
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+
+    padding-left: 20px;
+">
+	<a href="animal.html">
+
+		
+
+			<div class="mySlides3" style="display: block;">
+				<img src="animal1.jpg" style="
+					width: 300px;
+					height: 200px;
+					">
+			</div>
+
+			<div class="mySlides3" style="display: none;">
+				<img src="animal2.jpg" style="
+					width: 300px;
+					height: 200px;
+					">
+			</div>
+
+			<div class="mySlides3" style="display: none;">
+				<img src="animal3.jpg" style="
+					width: 300px;
+					height: 200px;
+					">
+			</div>
+
+		<h2>Animal<h2>
+	</a>
+</div>
+<div class="subtopic4" style="
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+
+    padding-left: 20px;
+">
+	<a href="cartoon.html">
+		
+
+			<div class="mySlides4">
+				<img src="cartoon1.jpg"style="
+					width: 300px;
+					height: 200px;
+					">
+			</div>
+
+			<div class="mySlides4">
+				<img src="cartoon2.jpg"style="
+					width: 300px;
+					height: 200px;
+					">
+			</div>
+
+			<div class="mySlides4">
+				<img src="cartoon3.jpg"style="
+					width: 300px;
+					height: 200px;
+					">
+			</div>
+
+		<h2>Cartoon<h2>
+	</a>
+</div>
+</body>
+</html>
+
+<script>
+	var slideIndex1 = 0;
+	var slideIndex2 = 0;
+	var slideIndex3 = 0;
+	var slideIndex4 = 0;
+
+	showSlides1();
+	showSlides2();
+	showSlides3();
+	showSlides4();
+
+	function showSlides1() 
+	{
+		var i;
+
+		var slides = document.getElementsByClassName("mySlides1");
+
+		for (i = 0; i < slides.length; i++) 
+		{
+			slides[i].style.display = "none";  
+		}
+
+		slideIndex1++;
+
+		if (slideIndex1 > slides.length) 
+		{
+			slideIndex1 = 1
+		}    
+
+		slides[slideIndex1-1].style.display = "block";  
+
+    setTimeout(showSlides1, 1000); // Change image every 2 seconds
+}
+
+function showSlides2() 
+{
+	var i;
+
+	var slides = document.getElementsByClassName("mySlides2");
+
+	for (i = 0; i < slides.length; i++) 
+	{
+		slides[i].style.display = "none";  
+	}
+
+	slideIndex2++;
+
+	if (slideIndex2 > slides.length) 
+	{
+		slideIndex2 = 1
+	}    
+
+	slides[slideIndex2-1].style.display = "block";  
+
+    setTimeout(showSlides2, 1000); // Change image every 2 seconds
+}
+
+function showSlides3() 
+{
+	var i;
+
+	var slides = document.getElementsByClassName("mySlides3");
+
+	for (i = 0; i < slides.length; i++) 
+	{
+		slides[i].style.display = "none";  
+	}
+
+	slideIndex3++;
+
+	if (slideIndex3 > slides.length) 
+	{
+		slideIndex3 = 1
+	}    
+
+	slides[slideIndex3-1].style.display = "block";  
+
+    setTimeout(showSlides3, 1000); // Change image every 2 seconds
+}
+
+function showSlides4() 
+{
+	var i;
+
+	var slides = document.getElementsByClassName("mySlides4");
+
+	for (i = 0; i < slides.length; i++) 
+	{
+		slides[i].style.display = "none";  
+	}
+
+	slideIndex4++;
+
+	if (slideIndex4 > slides.length) 
+	{
+		slideIndex4 = 1
+	}    
+
+	slides[slideIndex4-1].style.display = "block";  
+
+    setTimeout(showSlides4, 1000); // Change image every 2 seconds
+}
+
+
+</script>
+</body>
+</html>
