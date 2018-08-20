@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body
+{
+	margin:0;
+    background-color: #1a1a1a;
+}
+h1
+{
+    font-size: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Dancing Script', cursive;
+
+}
+.image
+{	
+	margin: 0;
+	background-image:url("cover.jpg");
+	opacity: 1;
+	height: 700px;
+	border-bottom-width: 10px;
+	width: 100%;
+	background-size: cover;
+	padding: 0;
+
+}
+.header_section__copy {
+    margin: 0 auto;
+    padding: 0 40px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.mar
+{
+    background-color: white;
+    height: 30px;
+    margin:0px 0px 0px 0px;
+}
+.mar1
+{
+    background-color: #1a1a1a;
+    height: 30px;
+    margin:0px 0px 0px 0px;
+}
+.facebook
+{
+    border-radius: 50%;
+    color: white;
+    background-color: blue;
+    border: none;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+}
+.gmail
+{
+    border-radius: 50%;
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    float: left;
+    font-size: 30px;
+    margin: 4px 2px;
+}
+.subtopic1
+{
+    height: 40%;
+    width: 20%;
+    background-color: #404040;
+    padding: 40px 20px 20px 40px;
+    border: 40px white;
+    vertical-align: middle; 
+    display: inline-block;
+    float: left;
+
+}
+img.subtopic1
+{
+    padding: 40px 20px 20px 40px;
+}
+.subtopic2
+{
+    height: 40%;
+    width: 20%;
+    background-color: #404040;
+    padding: 40px 20px 20px 40px;
+    border: 10px white;
+    vertical-align: middle; 
+    display: inline-block;
+    float: left;
+
+}
+img.subtopic2
+{
+    padding: 40px 20px 20px 40px;
+}
+.subtopic3
+{
+    height: 40%;
+    width: 20%;
+    background-color: #404040;
+    padding: 40px 20px 20px 40px;
+    border: 10px white;
+    vertical-align: middle; 
+    display: inline-block;
+    float: left;
+
+}
+img.subtopic3
+{
+    padding: 40px 20px 20px 40px;
+}
+.subtopic4
+{
+    height: 40%;
+    width: 20%;
+    background-color: #404040;
+    padding: 40px 20px 20px 40px;
+    border: 10px white;
+    vertical-align: middle; 
+    display: inline-block;
+    float: left;
+
+}
+img.subtopic4
+{
+    padding: 40px 20px 20px 40px;
+}
+
+h2
+{
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: none;
+    color: white;
+    font-size:40px;
+}
+
+
+
+
+
+
+
+
+
